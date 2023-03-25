@@ -16,6 +16,7 @@ class SecretNumber {
     fun verify(userInput:Int) = secretRandom - userInput
 
     fun verifyResult(r:Resources, userInput:Int):String{
+        guessCounter++
         if(verify(userInput) > 0){
             return r.getString(R.string.bigger)
         }else if(verify(userInput) < 0){
