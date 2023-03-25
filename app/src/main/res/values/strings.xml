@@ -3,4 +3,8 @@
     <string name="action_settings">Settings</string>
     <string name="please_input_a_number">Please input a number(1-100)</string>
     <string name="guess">Guess</string>
+    <string name="bigger">Bigger!!!</string>
+    <string name="smaller">Smaller!!!</string>
+    <string name="excellent">Excellent! The number is </string>
+    <string name="you_got_it">You got it!!!</string>
 </resources>
